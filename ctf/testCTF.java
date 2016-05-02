@@ -9,7 +9,7 @@ public class testCTF{
 		}
 
 		try{
-			CTFs ctf = new CTFs("128.6.13.233");
+			CTFs ctf = new CTFs(args[0]);
 			ctf.run();
 		}catch(Exception e)
 		{
